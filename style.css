@@ -1,0 +1,441 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('fundo.png');
+  background-size: cover;
+}
+
+.containerInicio nav ul {
+  padding: 0;
+  /* Remova o preenchimento padrão da lista */
+}
+
+.containerInicio nav ul li {
+  margin-right: 190px;
+  /* Adicione margem direita para espaçamento entre os itens */
+  display: inline;
+  /* Faça os itens da lista aparecerem em linha */
+}
+
+
+
+.containerInicio nav ul li:last-child {
+  margin-right: 0;
+  /* Remova a margem direita do último item para evitar espaço extra */
+}
+
+.Containercontatos {
+  display: block;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #2b2434;
+  border-radius: 22px;
+  padding: 10px;
+}
+
+contatos {
+  align-self: center;
+  text-align: center;
+  justify-self: center;
+}
+
+.iconectt {
+  width: 25px;
+}
+
+.cliquectt {
+  align-self: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .Containercontatos {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .containerInicio {
+    display: none;
+  }
+}
+
+a:hover {
+  padding: 10px;
+  background-image: url('FundoCard.png');
+  border-radius: 20px;
+  color: #2b2434;
+  font-weight: bold;
+
+}
+
+a {
+  transition: transform 0.2s ease-in-out;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.containerInicio {
+
+  margin: 0 auto;
+  padding: 35px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.apresentacao {
+  margin: 0px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  padding-left: 30px;
+  padding-right: 30;
+  font-size: 18px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+
+}
+
+@media screen and (max-width: 500px) {
+  .apresentacao {
+    width: auto;
+    padding: 30px;
+    height: 50%;
+
+  }
+
+  .container {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-image: url('fundo.png');
+  }
+}
+
+.eu {
+  width: 230px;
+}
+
+nav {
+  display: flex;
+}
+
+.inicio {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .inicio {
+    display: block;
+    padding-top: 20px;
+    margin-top: 0px;
+  }
+
+
+}
+
+.nome {
+  display: block;
+  align-self: center;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .nome {
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+}
+
+.pc {
+  width: 190px;
+  margin: 20px;
+
+
+}
+
+.cards {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+}
+
+.containerImagem {
+
+  width: 190px;
+  margin: 20px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 20px;
+  backdrop-filter: blur(0px);
+  opacity: 100%;
+  position: relative;
+
+}
+
+.containerImagem img {
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 20px;
+  backdrop-filter: blur(0px);
+  opacity: 100%;
+
+}
+
+
+.sou {
+  color: #ffffff;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+
+
+}
+
+p {
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0px;
+  color: white;
+  opacity: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav ul li {
+  display: inline;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.meio {
+  padding-top: 60px;
+  justify-content: space-between;
+
+
+}
+
+.tituloCompetencias {
+  font-size: 35px;
+  text-align: center;
+  align-self: center;
+}
+
+.competencias {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.icone {
+  width: 35px;
+  padding-right: 10px;
+}
+
+
+.listaDeCompetencias {
+  padding-left: 350px;
+}
+
+
+.competencia {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin: 40px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .competencias {
+    display: block;
+    padding: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+  }
+
+  .meio {
+    background-image: url('fundoescuro.png');
+  }
+
+  .listaDeCompetencias {
+    padding-left: 0px;
+    margin-bottom: 40px;
+  }
+
+  .competencia {
+
+    text-align: start;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  .meio {
+    padding-top: 0px;
+  }
+}
+
+.secao1,
+.secao2,
+.secao3 {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  background-color: white;
+  padding: 19px
+}
+
+.secao2 {
+  background-color: #331f37;
+}
+
+.secao3 {
+  padding-bottom: 25px;
+}
+
+@media screen and (max-width: 500px) {
+
+  .secao1,
+  .secao2,
+  .secao3 {
+    display: block;
+    padding: 25px;
+    padding-top: 30px;
+  }
+
+  .cards {
+    display: block;
+  }
+}
+
+.bloco {
+  display: block;
+  align-items: center;
+  align-self: center;
+  margin-right: 50px;
+}
+
+.meio h2 {
+  margin: 0px;
+  color: #3f1056;
+  font-size: 35px;
+}
+
+.secao2 p {
+  color: white;
+}
+
+.p1 {
+  color: #3f1056;
+}
+
+.secao2 h2 {
+  color: #ffffff;
+}
+
+
+.meio p {
+  margin: 0;
+  width: 250px;
+  padding-right: 50px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold
+}
+
+.img {
+  padding: 20px;
+  border-radius: 60px;
+}
+
+/* Estilo da barra de rolagem */
+.container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url(fundo.png);
+  }
+
+}
